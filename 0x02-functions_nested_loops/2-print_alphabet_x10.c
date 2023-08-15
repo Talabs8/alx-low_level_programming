@@ -10,11 +10,12 @@ char c;
 int i;
 {
 for
-(i < 10)
+(i < 10;)
 {
 c = 'a';
 while
-(c <= 'z'; c++)
+(c <= 'z')
+c++
 {
 _putchar(c);
 }
