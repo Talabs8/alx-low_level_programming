@@ -7,12 +7,19 @@
 void print_alphabet_x10(void)
 {
 char c;
-for (int i = 0; i < 10; i++)
+int i;
 {
-for (c = 'a'; c <= 'z'; c++)
+for
+(i < 10)
+{
+c = 'a';
+while
+(c <= 'z'; c++)
 {
 _putchar(c);
 }
 _putchar('\n');
+i++;
+}
 }
 }
